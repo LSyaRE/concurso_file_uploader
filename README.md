@@ -1,15 +1,21 @@
-# Elysia with Bun runtime
+# File uploader with cloudinary
 
 ## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
+A project that use cloudinary service for audio files check the index files to get routes
 
 ## Development
-To start the development server run:
+### Local server
+To start the development server run without docker:
 ```bash
 bun run dev
+```
+
+### Docker 
+To start the development server run with docker:
+```bash
+# Depend's the version
+docker compose up -d 
+docker-compose up -d 
 ```
 
 Open http://localhost:3000/ with your browser to see the result.

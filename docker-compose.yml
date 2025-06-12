@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .           # Usa el Dockerfile del directorio actual
+    ports:
+      - "3000:3000"        # Expone el puerto de la app
+    env_file:
+      - .env               # Carga tus variables de entorno
